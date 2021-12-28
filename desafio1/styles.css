@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+body {
+  background-color: #F3F5F7;
+}
+
+button {
+  cursor: pointer;
+}
+
+.content {
+  max-width: 853px;
+
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+
+  padding: 2.5625rem 2rem;
+  
+  background: linear-gradient(88.27deg, #574AE8 0%, #3EA1DB 100%);
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+.title-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 4rem;
+
+  font-size: 1.5rem;
+  color: #FFF;
+}
+
+.title-logo {
+  display: flex;
+  align-items: center;
+}
+
+.title-logo-icon {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+}
+
+.search {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  
+  padding: 1rem;
+  
+  border-radius: 0.3125rem;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.button {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.search-input {
+  height: 100%;
+  flex: 1;
+
+  margin-left: 1.0625rem;
+
+  border: none;
+  outline: none;
+
+  font-size: 1.25rem;
+  
+  color: white;
+  background: transparent;
+  overflow: hidden;
+}
+
+.search-input::placeholder{
+  color: rgba(255, 255, 255, 0.5
+  )
+}
+
+.main {
+  padding: 2rem;
+}
+
+.container {
+  position: relative;
+
+  padding: 1.25rem;
+
+  margin-bottom: 1rem;
+
+  border-radius: 0.3125rem;
+  
+  background: #FFF;
+  box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+.like {
+  position: absolute;
+  right: 1.25rem;
+  top: 1.25rem;
+}
+
+.date-news {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.title-news {
+  margin-bottom: 0.75rem;
+
+  width: 100%;
+  overflow: hidden;
+}
+
+.title-new-url {
+  color: #1A202C;
+  transition: 0.3s color;
+  text-decoration: none;
+}
+
+.title-new-url:hover {
+  color: #2155f4;
+}
+
+.sub-info {
+  color: #717171;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
